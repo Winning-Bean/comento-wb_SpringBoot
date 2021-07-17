@@ -11,5 +11,6 @@
     <select id="selectDetailCode" parameterType="com.comento.dto.CodeRequest" resultType="code">
 		SELECT *
 		  FROM COMM_CODE
+		  WHERE COMM_CD_ID = #{commCdId}
 	</select>
 </mapper>
