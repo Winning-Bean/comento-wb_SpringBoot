@@ -1,11 +1,8 @@
 package com.comento.service;
 
 import com.comento.dto.CodeRequest;
-import com.comento.dto.NoticeRequest;
 import com.comento.repository.CodeRepository;
-import com.comento.repository.NoticeRepository;
 import com.comento.vo.CodeVO;
-import com.comento.vo.NoticeVO;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

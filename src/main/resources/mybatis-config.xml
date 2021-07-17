@@ -12,5 +12,6 @@
     </typeAliases>
     <mappers>
         <mapper resource="mapper/NoticeMapper.xml"/>
+        <mapper resource="mapper/CodeMapper.xml"/>
     </mappers>
 </configuration>
