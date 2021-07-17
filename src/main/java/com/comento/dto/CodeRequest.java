@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class CodeRequest {
+    private String searchNm;
     private String commCdId;
 
 //    @Data
