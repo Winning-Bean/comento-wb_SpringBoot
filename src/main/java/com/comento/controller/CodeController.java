@@ -2,10 +2,7 @@ package com.comento.controller;
 
 import com.comento.dto.CodeRequest;
 import com.comento.dto.CodeResponse;
-import com.comento.dto.NoticeRequest;
-import com.comento.dto.NoticeResponse;
 import com.comento.service.CodeService;
-import com.comento.service.NoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

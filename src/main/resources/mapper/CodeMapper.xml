@@ -4,13 +4,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.comento.repository.CodeRepository">
     <select id="selectRepCode" parameterType="com.comento.dto.CodeRequest" resultType="code">
-		SELECT *
+		SELECT COMM_CD_ID, COMM_CD_NM, COMM_CD_ENG, CD_SORT, CD_USE_YN, CONN_1_CD, CONN_2_CD, CONN_3_CD
 		  FROM COMM_INFO
 		  WHERE COMM_CD_NM LIKE CONCAT ('%', #{searchNm}, '%')
 	</select>
 
     <select id="selectDetailCode" parameterType="com.comento.dto.CodeRequest" resultType="code">
-		SELECT *
+		SELECT COMM_CD_ID, CD_ID, CD_NM, CD_ENG, CD_SORT, CD_USE_YN, CONN_1_CD, CONN_2_CD, CONN_3_CD
 		  FROM COMM_CODE
 		  WHERE COMM_CD_ID = #{commCdId}
 	</select>
